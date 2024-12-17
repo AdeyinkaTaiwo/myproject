@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
+
+login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a;
+}

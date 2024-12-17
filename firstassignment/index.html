@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Restaurant</title>
+    <style>
+    body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: aliceblue;
+            margin:0;
+            padding: 0;
+        }
+            
+        /* header{
+            background-color: antiquewhite;
+            color: green;
+            padding:1em;
+            text-align: center;
+        } */
+
+        .restaurant-wrap{
+            display:flex;
+            justify-content: space-between;
+        }
+        nav a {
+            color: green;
+            margin:0.15px;
+            text-decoration: none;
+        }
+            nav a:hover{
+                text-decoration: underline;
+            }
+            main{
+                padding:20px;
+                text-align: center;
+            }
+            main img{
+                width:80%;
+                max-width: 500px;
+                border-radius: 10px;
+                margin-top: 20px;
+              text-align: center;
+                padding:1em;
+                background-color: antiquewhite;
+                color: green;
+            }
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="restaurant-wrap">
+            <div class="left-wrap">
+                <img src="./logo.png" alt="logo" height="50" width="90">
+
+            </div>
+            <div class="right-wrap">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="register.html">Sign up</a>
+                <a href="homepage.html">Login</a>
+
+            </div>
+        </div>
+       
+    </nav>
+   </header> 
+   <div>
+    <h1>Welcome to The Restaurant</h1>
+   </div>
+
+   <main>
+    <h2>Delicious Food, Friendly Atmosphere</h2>
+    <p>Experience the best meals in town! Come dine with us and enjoy a wide range of exquisite dishes prepared by our top chefs.</p>
+
+    <img src="food.jpeg" alt="Delicious food from The Restaurant">
+   </main>
+
+   <footer>
+    <p>&copy; 2024 The Restaurant</p>
+   </footer>
+</body>
+</html>
